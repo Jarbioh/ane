@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparência - ANE Sofala</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logos/anelogoo.png" alt="Logótipo ANE">
+        </div>
+
+        <button class="menu-toggle" aria-label="Abrir menu"><i class="fa fa-bars"></i></button>
+        
+        <div class="search-container">
+            <button id="searchButton" aria-label="Abrir campo de pesquisa">
+                <i class="fa fa-search search-icon"></i>
+                <i class="fa fa-times close-icon" style="display: none;"></i>
+            </button>
+            <input type="text" id="searchInput" class="search-input" placeholder="Pesquisar..." aria-label="Digite para pesquisar">
+        </div>
+        <nav role="navigation">
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="transparencia.html">Transparência</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-results" id="searchResults" style="display: none;">
+        <div class="search-results-header">
+            <h2>Resultados da Pesquisa</h2>
+            <button id="closeResults" aria-label="Fechar resultados"><i class="fa fa-times"></i></button>
+        </div>
+        <div class="filters">
+            <select id="filterType" aria-label="Filtrar por tipo">
+                <option value="all">Todos</option>
+                <option value="Projeto">Projetos</option>
+                <option value="Notícia">Notícias</option>
+                <option value="Sobre">Sobre</option>
+                <option value="Transparência">Transparência</option>
+            </select>
+        </div>
+        <div class="results-grid" id="resultsGrid"></div>
+        <p id="noResults" style="display: none;">Nenhum resultado encontrado.</p>
+    </section>
+
+    <main>
+        <!-- Seção de Transparência -->
+        <section class="transparencia">
+            <h2>Transparência</h2>
+            <p class="intro">A ANE Sofala está comprometida com a transparência e o acesso à informação pública. Aqui você encontra relatórios, dados financeiros e outras informações relevantes sobre nossas atividades.</p>
+
+            <!-- Relatórios Anuais -->
+            <div class="relatorios">
+                <h3>Relatórios Anuais</h3>
+                <div class="relatorios-grid">
+                    <div class="relatorio card">
+                        <h4>Relatório Anual 2022</h4>
+                        <p>Um resumo das atividades e conquistas da ANE Sofala no ano de 2022.</p>
+                        <a href="docs/relatorio-2022.pdf" target="_blank" class="btn">Baixar PDF</a>
+                    </div>
+                    <div class="relatorio card">
+                        <h4>Relatório Anual 2021</h4>
+                        <p>Um resumo das atividades e conquistas da ANE Sofala no ano de 2021.</p>
+                        <a href="docs/relatorio-2021.pdf" target="_blank" class="btn">Baixar PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dados Financeiros -->
+            <div class="dados-financeiros">
+                <h3>Dados Financeiros</h3>
+                <div class="dados-grid">
+                    <div class="dado card">
+                        <h4>Orçamento 2023</h4>
+                        <p>Detalhes sobre o orçamento da ANE Sofala para o ano de 2023.</p>
+                        <a href="docs/orcamento-2023.pdf" target="_blank" class="btn">Baixar PDF</a>
+                    </div>
+                    <div class="dado card">
+                        <h4>Balanço Financeiro 2022</h4>
+                        <p>Balanço financeiro completo do ano de 2022.</p>
+                        <a href="docs/balanco-2022.pdf" target="_blank" class="btn">Baixar PDF</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Licitações e Contratos -->
+            <div class="licitacoes">
+                <h3>Licitações e Contratos</h3>
+                <div class="licitacoes-grid">
+                    <div class="licitacao card">
+                        <h4>Edital de Licitação 001/2023</h4>
+                        <p>Edital para a contratação de serviços de manutenção de estradas.</p>
+                        <a href="docs/edital-001-2023.pdf" target="_blank" class="btn">Baixar PDF</a>
+                    </div>
+                    <div class="licitacao card">
+                        <h4>Contrato 045/2022</h4>
+                        <p>Contrato para a construção da ponte sobre o Rio Save.</p>
+                        <a href="docs/contrato-045-2022.pdf" target="_blank" class="btn">Baixar PDF</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Botão "Voltar ao Topo" -->
+    <button id="scrollToTop" title="Voltar ao topo">
+        <span class="sr-only">Voltar ao topo da página</span>
+        ↑
+    </button>
+
+    <footer>
+        <p>© 2025 ANE - Administração Nacional de Estradas</p>
+        <div class="social-links">
+            <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

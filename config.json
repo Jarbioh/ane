@@ -1,0 +1,131 @@
+[
+    {
+        "tipo": "Projeto",
+        "titulo": "Reabilitação da Estrada N1 - Troço Maputo-Inhambane",
+        "descricao": "Projeto de reabilitação de 200 km da Estrada N1, melhorando a ligação entre Maputo e Inhambane.",
+        "imagem": "img/projects/anestrada.png",
+        "link": "projetos.html#estrada-n1",
+        "pagina": "projetos.html"
+    },
+    {
+        "tipo": "Projeto",
+        "titulo": "Construção da Ponte sobre o Rio Zambeze",
+        "descricao": "Construção de uma ponte de 1 km sobre o Rio Zambeze para facilitar o transporte entre as províncias de Sofala e Zambézia.",
+        "imagem": "img/projects/ponte-save.png",
+        "link": "projetos.html#ponte-zambeze",
+        "pagina": "projetos.html"
+    },
+    {
+        "tipo": "Projeto",
+        "titulo": "Pavimentação da Estrada N6 - Vanduzi-Gorongosa",
+        "descricao": "Pavimentação de 50 km da Estrada N6, conectando Vanduzi ao distrito de Gorongosa, com previsão de conclusão em 12 meses.",
+        "imagem": "img/projects/manutencao.png",
+        "link": "projetos.html#estrada-n6",
+        "pagina": "projetos.html"
+    },
+    {
+        "tipo": "Projeto",
+        "titulo": "Expansão da Estrada EN7 - Beira-Dondo",
+        "descricao": "Expansão da EN7 com duplicação de faixas para melhorar o tráfego entre Beira e Dondo.",
+        "imagem": "img/projects/estradas.png",
+        "link": "projetos.html#estrada-en7",
+        "pagina": "projetos.html"
+    },
+    {
+        "tipo": "Projeto",
+        "titulo": "Manutenção de Estradas Rurais em Sofala",
+        "descricao": "Manutenção de 150 km de estradas rurais na província de Sofala para beneficiar comunidades agrícolas.",
+        "imagem": "img/projects/anestrada.png",
+        "link": "projetos.html#estradas-rurais",
+        "pagina": "projetos.html"
+    },
+    {
+        "tipo": "Notícia",
+        "titulo": "ANE Inicia Obras de Pavimentação na Estrada N6",
+        "descricao": "A Administração Nacional de Estradas (ANE) deu início às obras de pavimentação de 50 km da Estrada N6, que liga a cidade de Vanduzi ao distrito de Gorongosa.",
+        "imagem": "img/news/estradaNacional.png",
+        "link": "noticia.html#estrada-n6-inauguracao",
+        "pagina": "noticias.html"
+    },
+    {
+        "tipo": "Notícia",
+        "titulo": "Conclusão da Reabilitação da Estrada N1",
+        "descricao": "A reabilitação de 200 km da Estrada N1 foi concluída, beneficiando o transporte entre Maputo e Inhambane.",
+        "imagem": "img/news/transparencia_HDR.png",
+        "link": "noticia.html#conclusao-estrada-n1",
+        "pagina": "noticias.html"
+    },
+    {
+        "tipo": "Notícia",
+        "titulo": "ANE Assina Contrato para Nova Ponte no Zambeze",
+        "descricao": "A ANE assinou um contrato com uma empresa internacional para a construção de uma ponte sobre o Rio Zambeze.",
+        "imagem": "img/news/mw.png",
+        "link": "noticia.html#contrato-ponte-zambeze",
+        "pagina": "noticias.html"
+    },
+    {
+        "tipo": "Notícia",
+        "titulo": "ANE Participa de Conferência Internacional de Infraestrutura",
+        "descricao": "Representantes da ANE participaram de uma conferência em Lisboa para discutir avanços em infraestrutura rodoviária.",
+        "imagem": "img/news/ponteSave.png",
+        "link": "noticia.html#conferencia-lisboa",
+        "pagina": "noticias.html"
+    },
+    {
+        "tipo": "Notícia",
+        "titulo": "Impacto Positivo da Estrada EN7 na Economia Local",
+        "descricao": "A expansão da Estrada EN7 entre Beira e Dondo já mostra impactos positivos na economia local, segundo estudo recente.",
+        "imagem": "img/projects/estradas.png",
+        "link": "noticia.html#impacto-en7",
+        "pagina": "noticias.html"
+    },
+    {
+        "tipo": "Sobre",
+        "titulo": "Sobre a ANE",
+        "descricao": "A Administração Nacional de Estradas (ANE) é responsável pela gestão e manutenção da rede rodoviária de Moçambique.",
+        "link": "sobre.html",
+        "pagina": "sobre.html"
+    },
+    {
+        "tipo": "Sobre",
+        "titulo": "Missão e Visão da ANE",
+        "descricao": "Nossa missão é garantir uma rede rodoviária segura e eficiente, promovendo o desenvolvimento econômico e social.",
+        "link": "sobre.html#missao-visao",
+        "pagina": "sobre.html"
+    },
+    {
+        "tipo": "Sobre",
+        "titulo": "História da ANE",
+        "descricao": "Fundada em 1999, a ANE tem trabalhado para melhorar a infraestrutura rodoviária de Moçambique ao longo das décadas.",
+        "link": "sobre.html#historia",
+        "pagina": "sobre.html"
+    },
+    {
+        "tipo": "Transparência",
+        "titulo": "Relatório Anual 2022",
+        "descricao": "Relatório detalhado das atividades da ANE no ano de 2022, incluindo projetos concluídos e orçamento.",
+        "link": "docs/relatorio-2022.pdf",
+        "pagina": "transparencia.html"
+    },
+    {
+        "tipo": "Transparência",
+        "titulo": "Relatório Anual 2023",
+        "descricao": "Relatório das atividades da ANE em 2023, com foco em novos projetos e parcerias internacionais.",
+        "link": "docs/relatorio-2023.pdf",
+        "pagina": "transparencia.html"
+    },
+    {
+        "tipo": "Transparência",
+        "titulo": "Licitações Abertas 2024",
+        "descricao": "Lista de licitações abertas para projetos rodoviários em 2024, incluindo obras na província de Sofala.",
+        "link": "docs/licitacoes-2024.pdf",
+        "pagina": "transparencia.html"
+    },
+    {
+        "tipo": "Transparência",
+        "titulo": "Dados Financeiros 2023",
+        "descricao": "Relatório financeiro da ANE para o ano de 2023, detalhando alocação de fundos e despesas.",
+        "link": "docs/dados-financeiros-2023.pdf",
+        "pagina": "transparencia.html"
+    }
+]
